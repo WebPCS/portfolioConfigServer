@@ -9,4 +9,6 @@ spring:
           default-label: master
           ignore-local-ssh-settings: true
           private-key: ${privateKey}
-
+security:
+  username: ${username}
+  password: ${password}
